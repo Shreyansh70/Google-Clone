@@ -10,8 +10,9 @@ function Results() {
   const location = useLocation()
 
   useEffect(() => {
-    getResults('?query=Google&limit=20');
-  }, []);
+    console.log(searchTerm);
+    getResults(`?query=${searchTerm}&limit=20`);
+  }, [searchTerm]);
 
   if (isLoading) return <Loading />
 
