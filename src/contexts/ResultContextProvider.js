@@ -14,7 +14,7 @@ export const ResultContextProvider = ({ children }) => {
         const response = await fetch(`${baseURL}${type}`, {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '3d8746731emsh2b9c88b2772affep1c00ebjsnef752b69b236',
+                'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
                 'X-RapidAPI-Host': 'google-web-search1.p.rapidapi.com'
               }
         });
