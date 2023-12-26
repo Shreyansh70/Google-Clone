@@ -30,6 +30,6 @@ Additional Features: Consider expanding the app to include more features such as
 User Interface: Enhance the user interface for a more polished and engaging user experience.
 Feel free to contribute to the project by opening issues, suggesting improvements, or submitting pull requests.
 
-Deployed Application: https://goggl-clone-search.netlify.app/websearch
+Deployed Application: https://goggl-clone-search.netlify.app/
 
 Happy coding! 🚀
